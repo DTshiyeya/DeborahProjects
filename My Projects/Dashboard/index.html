@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div>
+        <div class="logo">MyApp</div>
+        <div class="menu">
+          <a href="#">Dashboard</a>
+          <a href="#" class="active">Profile</a>
+          <a href="#">Folders</a>
+          <a href="#">Notification</a>
+          <a href="#">Messages</a>
+          <a href="#">Help Center</a>
+          <a href="#">Setting</a>
+        </div>
+      </div>
+      <a href="#" class="logout">LOGOUT</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+          <button>🔍</button>
+        </div>
+        <div class="profile">
+          DEBORAH TSHIYEYA
+          <div class="profile-logo">DT</div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat-card">
+          <h2>36,159</h2>
+          <p>Customers</p>
+        </div>
+        <div class="stat-card">
+          <h2>3,159</h2>
+          <p>Orders</p>
+        </div>
+        <div class="stat-card">
+          <h2>56,159</h2>
+          <p>Earnings</p>
+        </div>
+      </div>
+
+      <!-- Content Grid -->
+      <div class="content">
+        <!-- Chart -->
+        <div class="chart">
+          <h3>Statistics</h3>
+          <div class="line-chart">
+            <div class="line"></div>
+          </div>
+          <div class="calendar">
+            <span>Mon 5</span>
+            <span>Tue 6</span>
+            <span class="highlight">Wed 7</span>
+            <span>Thu 8</span>
+            <span>Fri 9</span>
+            <span>Sat 10</span>
+            <span>Sun 11</span>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div>
+          <div class="card">
+            <h3>Top Product Sale</h3>
+            <div class="pie"></div>
+            <p>Total Sale: 95K</p>
+          </div>
+
+          <div class="card" style="margin-top:20px;">
+            <h3>Traffic Source</h3>
+            <p>example.com - 45%</p>
+            <div class="traffic-bar"><div class="traffic-fill" style="width:45%"></div></div>
+            <p>example.com - 32%</p>
+            <div class="traffic-bar"><div class="traffic-fill" style="width:32%"></div></div>
+            <p>example.com - 23%</p>
+            <div class="traffic-bar"><div class="traffic-fill" style="width:23%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

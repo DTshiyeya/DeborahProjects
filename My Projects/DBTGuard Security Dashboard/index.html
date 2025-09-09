@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBTGuard Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>DBTGuard</h2>
+    <a href="#" class="active">Overview</a>
+    <a href="#">Issues</a>
+    <a href="#">Files</a>
+    <a href="#">Threat Details</a>
+    <a href="#">Threats</a>
+    <a href="#">Help & Support</a>
+    <a href="#">Settings</a>
+    <div class="upgrade">Upgrade to Pro</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <!-- Top Bar -->
+    <div class="topbar">
+      <h2>Welcome, Deborah Tshiyeya</h2>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Here...">
+      </div>
+    </div>
+
+    <!-- Row 1: Current Risk -->
+    <div class="grid risk-grid">
+      <div class="card"><h3>Total Threats</h3><div class="value">132%</div></div>
+      <div class="card"><h3>Video File Risk</h3><div class="value">16%</div></div>
+      <div class="card"><h3>Image File Risk</h3><div class="value">43%</div></div>
+      <div class="card"><h3>Docs File Risk</h3><div class="value">7%</div></div>
+      <div class="card"><h3>Folder File Risk</h3><div class="value">66%</div></div>
+      <div class="card risk-score">
+        <div class="circle">741</div>
+        <h3>Risk Score (High)</h3>
+      </div>
+    </div>
+
+    <!-- Row 2: Threat Summary -->
+    <div class="grid summary-grid">
+      <div class="card">
+        <h3>Threat Summary</h3>
+        <div class="graph"></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Virus + Device -->
+    <div class="grid bottom-grid">
+      <div class="card">
+        <h3>Threats by Virus</h3>
+        <div class="donut">
+          <div class="donut-text">65%</div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Threat by Device</h3>
+        <div class="mini-donut"></div>
+      </div>
+    </div>
+
+    <!-- Row 4: Threat Details -->
+    <div class="grid summary-grid">
+      <div class="card">
+        <h3>Threat Details</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Device ID</th>
+              <th>Device Name</th>
+              <th>File Path</th>
+              <th>File Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12-05-2024</td>
+              <td>angryman728</td>
+              <td>CrazyFan</td>
+              <td>C:/Users/Speed...</td>
+              <td>jpeg</td>
+            </tr>
+            <tr>
+              <td>13-05-2024</td>
+              <td>angryman732</td>
+              <td>DevX</td>
+              <td>C:/Windows/System...</td>
+              <td>exe</td>
+            </tr>
+            <tr>
+              <td>14-05-2024</td>
+              <td>angryman742</td>
+              <td>WorkPC</td>
+              <td>C:/Users/Documents...</td>
+              <td>docx</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
